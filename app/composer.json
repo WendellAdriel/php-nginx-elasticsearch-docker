@@ -1,0 +1,15 @@
+{
+    "name": "wendell_adriel/elastic-test",
+    "description": "Elasticsearch test",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wendell Adriel",
+            "email": "wendelladriel.ti@gmail.com"
+        }
+    ],
+    "require": {
+        "elasticsearch/elasticsearch": "^5.2"
+    }
+}
