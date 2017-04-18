@@ -2,7 +2,7 @@ version: "3"
 
 services:
   web:
-    image: nginx:latest
+    image: nginx:mainline-alpine
     container_name: elastic-test-web
     ports:
       - "8080:80"
@@ -15,7 +15,7 @@ services:
       - php
 
   php:
-    image: php:7-fpm
+    image: php:fpm-alpine
     container_name: elastic-test-php
     volumes:
       - ./app:/app
